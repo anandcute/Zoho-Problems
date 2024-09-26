@@ -18,7 +18,7 @@ public class Program6 {
     }
 
     public static void main(String[] args) {
-         int x [] = {0,3,2,1,4};
+         int x [] = {0,3,2,1};
         System.out.println(zoho(x));
     }
     

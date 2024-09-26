@@ -5,7 +5,7 @@ public class Problem16 {
         int f [] = new int[num+1];
         for(int i = 1 ; i <= num ; i++){
             f[i] = f [i >> 1] + (i & 1);
-            System.out.println(Arrays.toString(f));
+            // System.out.println(Arrays.toString(f));
         }
         return f;
     }

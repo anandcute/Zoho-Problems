@@ -25,6 +25,6 @@ public class Problem9 {
     
     public static void main(String[] args) {
        Problem9 p = new Problem9();
-       System.out.println(p.zoho("aba")); // true
+       System.out.println(p.zoho("abca")); // true
     }
 }
